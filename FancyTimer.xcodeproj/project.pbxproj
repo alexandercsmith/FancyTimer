@@ -13,6 +13,7 @@
 		5859E5AC23DBA18B007248D6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5859E5AB23DBA18B007248D6 /* Assets.xcassets */; };
 		5859E5AF23DBA18B007248D6 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5859E5AE23DBA18B007248D6 /* Preview Assets.xcassets */; };
 		5859E5B223DBA18B007248D6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5859E5B023DBA18B007248D6 /* LaunchScreen.storyboard */; };
+		5859E5BB23DBA7AE007248D6 /* FancyTimer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5859E5BA23DBA7AE007248D6 /* FancyTimer.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,8 @@
 		5859E5AE23DBA18B007248D6 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		5859E5B123DBA18B007248D6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5859E5B323DBA18B007248D6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5859E5B923DBA19F007248D6 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		5859E5BA23DBA7AE007248D6 /* FancyTimer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FancyTimer.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,6 +43,7 @@
 		5859E59923DBA189007248D6 = {
 			isa = PBXGroup;
 			children = (
+				5859E5B923DBA19F007248D6 /* README.md */,
 				5859E5A423DBA189007248D6 /* FancyTimer */,
 				5859E5A323DBA189007248D6 /* Products */,
 			);
@@ -63,6 +67,7 @@
 				5859E5B023DBA18B007248D6 /* LaunchScreen.storyboard */,
 				5859E5B323DBA18B007248D6 /* Info.plist */,
 				5859E5AD23DBA18B007248D6 /* Preview Content */,
+				5859E5BA23DBA7AE007248D6 /* FancyTimer.swift */,
 			);
 			path = FancyTimer;
 			sourceTree = "<group>";
@@ -147,6 +152,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5859E5A623DBA189007248D6 /* AppDelegate.swift in Sources */,
+				5859E5BB23DBA7AE007248D6 /* FancyTimer.swift in Sources */,
 				5859E5A823DBA189007248D6 /* SceneDelegate.swift in Sources */,
 				5859E5AA23DBA189007248D6 /* ContentView.swift in Sources */,
 			);
