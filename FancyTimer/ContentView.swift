@@ -9,8 +9,11 @@
 import SwiftUI
 
 struct ContentView: View {
+  // Value of Published Data from Object
+  @ObservedObject var timer = FancyTimer()
+  
   var body: some View {
-    Text("Hello, World!")
+    Text("\(self.timer.value)").font(.largeTitle)
   }
 }
 
